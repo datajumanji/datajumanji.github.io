@@ -1,11 +1,13 @@
-html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>DonkeyHot.net</title>
     <style>
-        /* Пълно нулиране и бял фон */
         html, body {
             margin: 0;
             padding: 0;
@@ -17,16 +19,13 @@ html<!DOCTYPE html>
             align-items: center;
             overflow: hidden;
         }
-
-        /* Контейнер, който центрира логото */
         .wrapper {
             text-align: center;
+            width: 100%;
         }
-
-        /* Настройки за логото */
         .main-logo {
             max-width: 90%;
-            width: 450px; /* Можете да промените размера от тук */
+            width: 450px;
             height: auto;
             display: block;
             margin: 0 auto;
@@ -36,8 +35,8 @@ html<!DOCTYPE html>
 <body>
 
     <div class="wrapper">
-        <!-- Вашето лого в средата -->
-        <img src="logo.png" alt="DonkeyHot.net" class="main-logo">
+        <!-- Логото по средата -->
+        <img src="logo.png" alt="DonkeyHot.net" class="main-logo" onerror="this.onerror=null; this.src='logo.jpg';">
     </div>
 
 </body>
