@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <title>DonkeyHot.net</title>
     <style>
         html, body {
@@ -15,16 +14,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            overflow: hidden;
         }
         .wrapper {
             text-align: center;
-            width: 100%;
         }
-        .main-logo {
-            max-width: 90%;
-            width: 450px;
-            height: auto;
+        img {
             display: block;
             margin: 0 auto;
         }
@@ -33,8 +27,8 @@
 <body>
 
     <div class="wrapper">
-        <!-- Опреснен код за сигурно зареждане на картинката -->
-        <img src="logo.png?v=1" alt="DonkeyHot.net" class="main-logo" onerror="this.onerror=null; this.src='logo.jpg?v=1';">
+        <!-- Директна връзка към твоето лого в GitHub, без лимит на размера -->
+        <img src="https://githubusercontent.com" alt="DonkeyHot.net" onerror="this.onerror=null; this.src='https://githubusercontent.com';">
     </div>
 
 </body>
